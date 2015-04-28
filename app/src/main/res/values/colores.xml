@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="boton">#656D82</color>
+    <color name="texto_boton">#FFFFFF</color>
+    <color name="texto">#5b6275</color>
+    <color name="texto_span">#888888</color>
+
+    <color name="holo_blue_dark">#0099cc</color>
+    <color name="holo_yellow_dark">#ff8800</color>
+    <color name="holo_green_dark">#669900</color>
+    <color name="holo_purple_dark">#9933cc</color>
+    <color name="holo_red_dark">#cc0000</color>
+    <color name="logo_pats">#737e99</color>
+
+    <integer-array name="mycolors">
+        <item>@color/logo_pats</item>
+        <item>@color/logo_pats</item>
+    </integer-array>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_sello"
+        android:textColor="@color/texto_span"
+        tools:text="PATS112"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:textStyle="italic"
+        android:capitalize="characters"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="CLRDA0002130"
+        android:id="@+id/txt_micropunto"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/texto_span"
+        android:layout_margin="5dp"
+        android:textStyle="italic"
+        android:capitalize="characters"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Las Condes"
+        android:id="@+id/txt_sucursal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txt_sello"
+        android:textColor="@color/texto_span"
+        android:layout_margin="5dp"
+        android:textStyle="italic"
+        android:capitalize="characters"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_articulo"
+        android:layout_below="@+id/txt_sello"
+        android:layout_alignLeft="@+id/txt_sello"
+        android:layout_alignStart="@+id/txt_sello"
+        android:textSize="20sp"
+        android:textColor="@color/texto"
+        tools:text="Computador"/>
+</RelativeLayout>

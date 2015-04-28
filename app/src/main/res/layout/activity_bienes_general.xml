@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="cl.pats.envy15.pats_inventario.BienesGeneralActivity"
+                android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/boton"
+        android:padding="5dp"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Inventario PATS"
+            android:id="@+id/textView"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="39dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/logo_pats_top"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienes Leidos"
+        android:id="@+id/buttonLeidos"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="100dp"
+        android:background="@color/boton"
+        android:textColor="@color/texto_boton"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contLeidos"
+        android:textColor="@color/boton"
+        android:layout_alignTop="@+id/buttonLeidos"
+        android:layout_alignRight="@+id/buttonLeidos"
+        android:layout_alignEnd="@+id/buttonLeidos"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded_corners"
+        android:padding="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienes Faltantes"
+        android:id="@+id/buttonFaltantes"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/buttonLeidos"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/boton"
+        android:textColor="@color/texto_boton"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contFaltantes"
+        android:textColor="@color/boton"
+        android:layout_alignTop="@+id/buttonFaltantes"
+        android:layout_alignRight="@+id/buttonFaltantes"
+        android:layout_alignEnd="@+id/buttonFaltantes"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded_corners"
+        android:padding="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienes Otras Sucursales"
+        android:id="@+id/buttonOtras"
+        android:layout_below="@+id/buttonFaltantes"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/boton"
+        android:textColor="@color/texto_boton"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contOtras"
+        android:textColor="@color/boton"
+        android:layout_alignTop="@+id/buttonOtras"
+        android:layout_alignRight="@+id/buttonOtras"
+        android:layout_alignEnd="@+id/buttonOtras"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded_corners"
+        android:padding="5dp"/>
+
+</RelativeLayout>

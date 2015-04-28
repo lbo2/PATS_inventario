@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="cl.pats.envy15.pats_inventario.ReadActivity"
+                android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/boton"
+        android:padding="5dp"
+        android:id="@+id/layoutHeader">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Inventario PATS"
+            android:id="@+id/tituloPats"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="39dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/logo_pats_top"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView_explanation"
+        android:textColor="#5b6275"
+        android:layout_below="@+id/layoutHeader"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/layoutBotones">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sincronizar"
+            android:id="@+id/btnSincronizar"
+            android:background="@color/boton"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/layoutHeader"
+            android:layout_alignLeft="@+id/layoutHeader"
+            android:layout_alignStart="@+id/layoutHeader"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="false"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/theListView"
+        android:layout_below="@+id/textView_explanation"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/layoutBotones"/>
+
+</RelativeLayout>

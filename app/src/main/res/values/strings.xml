@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PATS Inventario</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">LogOut</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_read">ReadActivity</string>
+    <string name="title_activity_lista">ListaActivity</string>
+    <string name="explanation">Acerque la etiqueta NFC al dispositivo.</string>
+    <string name="nfc_desabilitado">NFC está desabilitado.</string>
+    <string name="nfc_no_existe">Este dispositivo no cuenta con NFC.</string>
+    <string name="encoding_no_soportado">Encoding no soportado</string>
+    <string name="sin_bienes_data">No hay Bienes para mostrar</string>
+    <string name="title_activity_fragment">FragmentActivity</string>
+    <string name="menu_faltantes">Faltantes</string>
+    <string name="title_activity_bienes_general">BienesGeneralActivity</string>
+    <string name="title_activity_faltantes">FaltantesActivity</string>
+    <string name="title_activity_otras">OtrasActivity</string>
+
+</resources>
